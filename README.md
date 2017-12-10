@@ -3,6 +3,7 @@
 In your home folder, use `config` instead of `git` and add/commit files as usual.
 
 ```
+cd ~
 config status
 config add .zshrc
 config commit -m "updated zshrc"
@@ -20,5 +21,6 @@ config checkout
 config checkout
 config config --local status.showUntrackedFiles no # to avoid untracked mess
 ```
-Fix conflicts, then:
+
+Enjoy!
 
